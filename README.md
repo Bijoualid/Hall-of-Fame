@@ -13,3 +13,9 @@ If you want to support this community, please add this page to your resume and h
 
 You are free to customize this page as much as you want to fit your design as long as you keep the link of the Github page 
 and the others link that refer to the community.
+
+
+Who can be part of the Hall of Fame ?
+
+All those who want to find a new job, an internship etc
+But they are also Freelance or Company who want to promote themselves.
