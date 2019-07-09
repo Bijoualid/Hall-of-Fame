@@ -17,5 +17,7 @@ and the others link that refer to the community.
 
 Who can be part of the Hall of Fame ?
 
-All those who want to find a new job, an internship etc
+All those who want to find a new job, an internship etc,
+people who are passionate about their job and want to share their knowledge,
 But they are also Freelance or Company who want to promote themselves.
+
