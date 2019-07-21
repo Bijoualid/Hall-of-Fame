@@ -23,3 +23,12 @@ All those who want to find a new job, an internship etc,
 people who are passionate about their job and want to share their knowledge,
 But they are also Freelance or Company who want to promote themselves.
 
+As a student, please be aware that this page will improve as I learn.
+Here are the next improvements that will appear on the page:
+
+1 A navigation bar in order to be able to search for people according to their skills, country or name.
+2 A back-end system to allow people to join the Hall-of-Fame with an account
+
+
+Are you a Streamers ? check out the Hall-of-Fame-Twitch-Edition
+https://github.com/Bijoualid/Hall-of-Fame-Twitch-Edition
