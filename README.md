@@ -27,6 +27,7 @@ As a student, please be aware that this page will improve as I learn.
 Here are the next improvements that will appear on the page:
 
 1 A navigation bar in order to be able to search for people according to their skills, country or name.
+
 2 A back-end system to allow people to join the Hall-of-Fame with an account
 
 
