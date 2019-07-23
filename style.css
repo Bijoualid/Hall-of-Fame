@@ -47,6 +47,25 @@ h5
 }
 
 
+button
+{
+  background: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border: 0;
+  padding: 4px 40px;
+  border-radius: 2px;
+  font-size: 2rem;
+  color: #334f64;
+}
+
+
+button:hover
+{
+  text-decoration: underline;
+}
+
+
 .halloffame_page
 {
   text-align: center;
