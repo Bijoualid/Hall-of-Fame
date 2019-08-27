@@ -11,12 +11,6 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uh3+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-
-    <!-- JavaScript Files -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
     <title>Hall of Fame</title>
   </head>
 
@@ -24,8 +18,8 @@
     <div class="halloffame_page">
       <h1>Hall of Fame</h1>
       <h4 class="halloffame-intro">Software developer, It analyst, Web designer, Data Architect...  Great heroes can be found here</h4>
-      <a href="https://github.com/Bijoualid/Hall-of-Fame">Github</a>
-      <a href="https://discord.gg/6YkGZJD" target="_blank">Discord</a>
+      <a href="https://github.com/Bijoualid/Hall-of-Fame" class="card-link">Github</a>
+      <a href="https://discord.gg/6YkGZJD" target="_blank" class="card-link">Discord</a>
 
       <div class="join">
         <a href="join.html"><button type="button" name="button">Join us</button></a>
@@ -35,7 +29,9 @@
         <div class="row">
           <div class="personal-card col-lg-4 col-md-6">
             <div class="card" style="width: 19rem; background-color: #334f64;">
-              <img src="images/photoprofil.jpg" class="card-img-top" alt="...">
+              <div class="image">
+                <img src="images/photoprofil.jpg" class="card-img-top" alt="...">
+              </div>  
                 <div class="card-body">
                   <h3 class="card-title">Oualid Ismaili</h3>
                   <p class="card-text">I'm student in web development and project management.
@@ -43,11 +39,12 @@
                 </div>
 
                   <ul class="list-group list-group-flush">
+                    <span class="list-title">Skills</span>
                     <li class="list-group-item">Front-end</li>
                     <li class="list-group-item">Back-end</li>
                     <li class="list-group-item">Project managemnt</li>
                   </ul>
-                    <div class="card-body">
+                    <div class="card-footer">
                       <a href="https://bijoualid.github.io/CvAppBrewery/" class="card-link">My CV</a>
                       <a href="https://github.com/Bijoualid" class="card-link">My Github</a>
                     </div>
@@ -57,18 +54,21 @@
 
           <div class="personal-card col-lg-4 col-md-6">
             <div class="card" style="width: 19rem; background-color: #334f64;">
-              <img src="images/insertpichere1.jpg" class="card-img-top" alt="...">
+              <div class="image">
+                <p class="img-placeholder">Insert a photo</p>
+              </div>
                 <div class="card-body">
                   <h3 class="card-title">First name Last name</h3>
                   <p class="card-text">A quick description about you and what you do.</p>
                 </div>
 
                   <ul class="list-group list-group-flush">
+                    <span class="list-title">Skills</span>
                     <li class="list-group-item">Skill 1</li>
                     <li class="list-group-item">Skill 2</li>
                     <li class="list-group-item">Skill 3</li>
                   </ul>
-                    <div class="card-body">
+                    <div class="card-footer">
                       <a href="#" class="card-link">Link to your website</a>
                       <a href="#" class="card-link">Another link</a>
                     </div>
@@ -77,149 +77,49 @@
 
           <div class="personal-card col-lg-4 col-md-6">
             <div class="card" style="width: 19rem; background-color: #334f64;">
-              <img src="images/insertpichere1.jpg" class="card-img-top" alt="...">
+              <div class="image">
+                <p class="img-placeholder">Insert a photo</p>
+              </div>
                 <div class="card-body">
                   <h3 class="card-title">First name Last name</h3>
                   <p class="card-text">A quick description about you and what you do.</p>
                 </div>
 
                   <ul class="list-group list-group-flush">
+                    <span class="list-title">Skills</span>
                     <li class="list-group-item">Skill 1</li>
                     <li class="list-group-item">Skill 2</li>
                     <li class="list-group-item">Skill 3</li>
                   </ul>
-                    <div class="card-body">
+                    <div class="card-footer">
                       <a href="#" class="card-link">Link to your website</a>
                       <a href="#" class="card-link">Another link</a>
                     </div>
               </div>
+            </div>
           </div>
 
-          <div class="personal-card col-lg-4 col-md-6">
-            <div class="card" style="width: 19rem; background-color: #334f64;">
-              <img src="images/insertpichere1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3 class="card-title">First name Last name</h3>
-                  <p class="card-text">A quick description about you and what you do.</p>
-                </div>
-
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Skill 1</li>
-                    <li class="list-group-item">Skill 2</li>
-                    <li class="list-group-item">Skill 3</li>
-                  </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Link to your website</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-              </div>
-          </div>
-
-          <div class="personal-card col-lg-4 col-md-6">
-            <div class="card" style="width: 19rem; background-color: #334f64;">
-              <img src="images/insertpichere1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3 class="card-title">First name Last name</h3>
-                  <p class="card-text">A quick description about you and what you do.</p>
-                </div>
-
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Skill 1</li>
-                    <li class="list-group-item">Skill 2</li>
-                    <li class="list-group-item">Skill 3</li>
-                  </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Link to your website</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-              </div>
-          </div>
-
-          <div class="personal-card col-lg-4 col-md-6">
-            <div class="card" style="width: 19rem; background-color: #334f64;">
-              <img src="images/insertpichere1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3 class="card-title">First name Last name</h3>
-                  <p class="card-text">A quick description about you and what you do.</p>
-                </div>
-
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Skill 1</li>
-                    <li class="list-group-item">Skill 2</li>
-                    <li class="list-group-item">Skill 3</li>
-                  </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Link to your website</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-              </div>
-          </div>
-
-          <div class="personal-card col-lg-4 col-md-6">
-            <div class="card" style="width: 19rem; background-color: #334f64;">
-              <img src="images/insertpichere1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3 class="card-title">First name Last name</h3>
-                  <p class="card-text">A quick description about you and what you do.</p>
-                </div>
-
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Skill 1</li>
-                    <li class="list-group-item">Skill 2</li>
-                    <li class="list-group-item">Skill 3</li>
-                  </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Link to your website</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-              </div>
-          </div>
-
-
-          <div class="personal-card col-lg-4 col-md-6">
-            <div class="card" style="width: 19rem; background-color: #334f64;">
-              <img src="images/insertpichere1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3 class="card-title">First name Last name</h3>
-                  <p class="card-text">A quick description about you and what you do.</p>
-                </div>
-
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Skill 1</li>
-                    <li class="list-group-item">Skill 2</li>
-                    <li class="list-group-item">Skill 3</li>
-                  </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Link to your website</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-              </div>
-          </div>
-
-          <div class="personal-card col-lg-4 col-md-6">
-            <div class="card" style="width: 19rem; background-color: #334f64;">
-              <img src="images/insertpichere1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3 class="card-title">First name Last name</h3>
-                  <p class="card-text">A quick description about you and what you do.</p>
-                </div>
-
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Skill 1</li>
-                    <li class="list-group-item">Skill 2</li>
-                    <li class="list-group-item">Skill 3</li>
-                  </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Link to your website</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-              </div>
-          </div>
 
         </div>
-
-
       </div>
 
     </div>
+
+    <footer class="footer">
+      <p class="main-footer-text">&copy; Copyright 2019 by <a href="https://github.com/Bijoualid">Bijoualid</a></p>
+      <p class="mini-footer-text">contribution with <a href="https://github.com/mahmoudabdelazim">M.Abdelazim</a></p>
+    </footer>
+
+        <!-- JavaScript Files -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
   </body>
+</html>
+

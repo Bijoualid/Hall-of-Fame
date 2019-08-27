@@ -6,7 +6,7 @@ body
 
 p
 {
-  color: #a2a5ae;
+  color: #d0d2da;
 }
 
 
@@ -14,6 +14,7 @@ h1
 {
   color: #ffffff;
   font-size: 2.8rem;
+  font-weight: bold;
 }
 
 
@@ -47,22 +48,25 @@ h5
 }
 
 
-button
+.join button
 {
   background: #ffffff;
   margin-top: 40px;
   margin-bottom: 50px;
   border: 0;
-  padding: 4px 40px;
+  padding: 4px 40px 6px;
   border-radius: 2px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #334f64;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 
-button:hover
+.join button:hover
 {
-  text-decoration: underline;
+  background-color: #334f64;
+  color: #fff;
 }
 
 
@@ -76,7 +80,7 @@ button:hover
 .halloffame-intro
 {
   margin-top: 50px;
-  color: #5bc0f4;
+  color: #d0d2da;
 }
 
 
@@ -89,4 +93,61 @@ button:hover
 .personal-card
 {
   padding-bottom: 4%;
+}
+
+.card-body {
+  height: 200px;
+}
+
+.card-link {
+  color: #b1ccff;
+  transition: color 0.2s;
+}
+
+.card-link:hover,
+.card-link:active {
+  color: #fff;
+}
+
+.image {
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.705);
+}
+.image img {
+ height: 100%;
+}
+
+.img-placeholder {
+  color: #334f649a;
+  font-size: 130%;
+  margin-top: 75px;
+}
+
+.list-group {
+  background-color: rgb(238, 238, 238);
+}
+
+.list-title {
+  font-size: 110%;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.main-footer-text {
+  font-size: 120%;
+}
+
+.footer p a {
+    color: #b1ccff;
+    transition: color 0.2s;
+}
+
+.footer p a:hover {
+  color: #fff;
+  text-decoration: none;
 }
